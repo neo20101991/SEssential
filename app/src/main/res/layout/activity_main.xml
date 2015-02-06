@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.neo.sessential.MainActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:text="CALCULATOR"
+            android:id="@+id/button_Calc"
+            style="@android:style/Animation"
+            android:layout_weight="0.07"
+            android:background="#ffaee831"
+            android:textStyle="bold"
+            android:onClick="startCalculator"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:text="TRANSLATOR"
+            android:id="@+id/button_Translate"
+            android:layout_weight="0.07"
+            android:background="#ffff2629"
+            android:textStyle="bold"
+            android:onClick="startTranslator"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:text="MY NOTES"
+            android:id="@+id/button_Notes"
+            android:layout_weight="0.07"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:background="#ff5565ff"
+            android:onClick="startNotes"/>
+         <Button
+            android:layout_width="match_parent"
+             android:layout_height="77dp"
+             android:text="LOCATION"
+            android:id="@+id/button_Location"
+            android:layout_weight="0.07"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:onClick="startLocation"
+            android:background="#fffff307" />
+
+
+</LinearLayout>
